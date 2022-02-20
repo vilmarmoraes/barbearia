@@ -1,0 +1,6 @@
+.rodape {
+    display: flex;
+    border-bottom: 1px;
+    height: 100px;
+    background-color: deeppink;
+}

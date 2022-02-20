@@ -1,7 +1,9 @@
-export default function Rodape() {
+import styles from '../styles/Rodape.module.css'
+
+export default function Rodape(props) {
     return(
-        <div>
-            Rodape
+        <div className={styles.rodape}>
+           {props.direitos} 
         </div>
     )
 }
