@@ -13,7 +13,7 @@ export default function Home() {
 
       <body className={styles.body}>
         <header className={styles.header}>
-          <a href="/">Logo</a>
+          <a href="/Logo_nova_imagem_png.png">Logo</a>
           <nav className={styles.navmenu}>
             <ul>
               <li><a href="/">Sobre</a></li>
