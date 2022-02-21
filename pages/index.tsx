@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -13,11 +13,13 @@ export default function Home() {
 
       <body className={styles.body}>
         <header className={styles.header}>
-          <a href="/Logo_nova_imagem_png.png">Logo</a>
+          <span className={styles.logo}>
+            <Image src="/Logo_nova_imagem_png.png" alt="Nova Imagem Logo" width={300} height={40} />
+          </span>
           <nav className={styles.navmenu}>
             <ul>
               <li><a href="/">Sobre</a></li>
-              <li><a href="/">Produtos</a></li>
+              <li><a href="/">Serviços</a></li>
               <li><a href="/">Contato</a></li>
             </ul>
           </nav>
@@ -25,7 +27,13 @@ export default function Home() {
 
         <div id={styles.main}>
           <article className={styles.article}>Conteúdo</article>
-          <nav className={styles.nav}>Navegação</nav>
+          <nav className={styles.nav}>
+          <ul>
+              <li><a href="/precos">Nossos Preços</a></li>
+              <li><a href="/">Galeria</a></li>
+              <li><a href="/">Outros Produtos</a></li>
+            </ul>
+          </nav>
           <aside className={styles.aside}>Barra Lateral</aside>
         </div>
 

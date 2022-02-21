@@ -6,9 +6,15 @@
 }
 
 .header {
-    background: #1b9a96;
+    display: flex;
+    background: #e1f5f3;
     height: 20vh; 
     padding: 1em;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
 }
 
 .navmenu ul {
@@ -48,7 +54,7 @@
 }
 
 .footer {
-    background: #1b9a96;
+    background: #7dfcbc;
     height: 20vh; 
     padding: 1em;
 }

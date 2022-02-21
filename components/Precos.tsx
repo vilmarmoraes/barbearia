@@ -1,7 +1,7 @@
 export default function Precos() {
     return(
         <div>
-            Precos
+            Precos utilizados
         </div>
     )
 }
