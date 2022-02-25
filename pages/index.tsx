@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
+import Precos from '../components/Precos'
 
 export default function Home() {
   return (
@@ -26,7 +27,9 @@ export default function Home() {
         </header>
 
         <div id={styles.main}>
-          <article className={styles.article}>Conteúdo</article>
+          <article className={styles.article}>
+            <Precos/>
+          </article>
           <nav className={styles.nav}>
           <ul>
               <li><a href="/precos">Nossos Preços</a></li>
